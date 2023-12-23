@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, system-ui, Helvetica, "Times New Roman";
+}
+
+body {
+padding: 0px 200px;
+background-color: black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.left-side {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./green-leaf.jpg');
+    background-repeat: none;
+    background-size: cover;
+    align-items: center;
+    flex: 1;
+
+}
+
+.logo {
+    font-family: Roboto, system-ui, Helvetica, "Times New Roman";
+    display: flex;
+    color: white;
+}
+.sub-box {
+    display: flex;
+    padding-left: 20px;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+img.logo-image {
+    width: 150px;
+    height: 150px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.right-side {
+    display: flex;
+    flex: 1.5;
+}
