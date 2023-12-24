@@ -55,4 +55,34 @@ img.logo-image {
 .right-side {
     display: flex;
     flex: 1.5;
+    flex-wrap: wrap;
 }
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100%;
+    padding: 5px 150px 5px 5px;
+    justify-content: flex-start;
+    row-gap: 5px;
+    background-color: white;
+}
+
+input:valid {
+    border-color: aqua;
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+.button {
+    background-color: #596D48;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+}
+
