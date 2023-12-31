@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="container">
-    
             <div class="left-side">
                 <div class="logo">
                     <div class="sub-box">
@@ -32,12 +31,11 @@
                     <div class="input"><label for="last-name">Last Name :</label><input type="text" id="last-name" minlength="3" maxlength="10" required></div>
                     <div class="input"><label for="phone">Phone Number :</label><input type="number" id="phone" required></div>
                     <div class="input"><label for="email">Email :</label><input type="email" id="email" placeholder="xxx@gmail.com" required></div>
-                    <div class="input"><label for="password">Password :</label><input type="password" id="password" required></div>
+                    <div class="input"><label for="password">Password :</label><input type="password" id="password" pattern="(?=.*[!@#\$%\^&\*])(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])" required></div>
                     <div class="input"><label for="password">Confirm Password :</label><input type="password" id="password" required></div>
                 <button class="button" type="submit">Create Account</button>
                 </form>
-                <div class="final-message">Already have an account? Log in...</div>
-    
+                    <div class="final-message">Already have an account? Log in...</div>
         </div>
     
 </body>
